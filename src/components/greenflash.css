@@ -1,0 +1,146 @@
+.greenflashpage {
+  position: relative;
+  overflow: hidden;
+}
+
+@keyframes mymove {
+  0% {height: 100vh}
+  50% {height: 100vh}
+  100% {height: 90px}
+}
+
+.greenflash-header {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 90px;
+  border: 1px solid black;
+  background-image: url('../images/background.png');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  animation: mymove 3s ease;
+}
+
+@keyframes fadeOut {
+  0% { opacity: 0; height: 0; }
+  70% { opacity: 0; height: 0; }
+  100% { opacity: 1; height: 100%; }
+}
+
+.greenflash-content {
+  opacity: 1;
+  animation: fadeOut 4s;
+  width: 70%;
+  margin: auto;
+} 
+
+.greenflash-image {
+  width: 35%;
+  margin-top: -40px;
+}
+
+.what-content {
+  width: 50%;
+  margin-top: 70px;
+}
+
+.whatGreenflash {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
+.what-heading {
+  padding-bottom: 20px;
+}
+.what-text {
+  font-size: 12pt;
+  text-align: justify;
+}
+
+.greenflashheading {
+  font-size: 16pt;
+  font-weight: 800;
+}
+
+.explanation-heading {
+  text-align: center;
+  margin-top: 80px;
+  padding-bottom: 40px;
+}
+
+.explaination-text {
+  width: 100%;
+  text-align: justify;
+  padding-bottom: 40px;
+}
+
+.types-table {
+  width: 100%;
+}
+
+.imagereference{
+  font-size: 6pt;
+  text-align: right;
+}
+
+.greenflash-howcontainer {
+  padding-bottom: 100px;
+}
+
+.how-heading {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.atmosphere {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 30px;
+}
+
+.atmosphere-text {
+  width: 35%;
+}
+
+.atmosphere-img {
+  width: 50%;
+}
+
+.toggle-container {
+  position: relative;
+  width: 70px;
+  height: 20px;
+  background-color: #c4c4c4;
+  cursor: pointer;
+  user-select: none;
+  border-radius: 20px;
+  padding: 2px;
+}
+.toggle-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  width: 38px;
+  height: 20px;
+  cursor: pointer;
+  color: #fff;
+  background-color: #FF6666;
+  box-shadow: 0 2px 4px rgb(0, 0, 0, 0.25);
+  padding: 8px 12px;
+  border-radius: 20px;
+  position: absolute;
+  transition: all 0.2s ease;
+  left: 34px;
+}
+
+.disable {
+  background-color: #4ae63c;
+  left: 2px;
+}
+
+.emo{
+  font-size: 20px;
+}
