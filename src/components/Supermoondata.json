@@ -1,0 +1,58 @@
+[
+  {
+    "Date": "9/01/2001",
+    "Time": "20:24:00",
+    "Eclipse": "t",
+    "Distance": 357406,
+    "Diameter": 33.43,
+    "Relative": 0.994
+  },
+  {
+    "Date": "8/02/2001",
+    "Time": "07:12:00",
+    "Eclipse": "",
+    "Distance": 356994,
+    "Diameter": 33.47,
+    "Relative": 0.997
+  },
+  {
+    "Date": "9/03/2001",
+    "Time": "17:23:00",
+    "Eclipse": "",
+    "Distance": 361389,
+    "Diameter": 33.07,
+    "Relative": 0.965
+  },
+  {
+    "Date": "28/01/2002",
+    "Time": "22:50:00",
+    "Eclipse": "",
+    "Distance": 361766,
+    "Diameter": 33.03,
+    "Relative": 0.961
+  },
+  {
+    "Date": "27/02/2002",
+    "Time": "09:17:00",
+    "Eclipse": "",
+    "Distance": 357091,
+    "Diameter": 33.46,
+    "Relative": 0.996
+  },
+  {
+    "Date": "28/03/2002",
+    "Time": "18:25:00",
+    "Eclipse": "",
+    "Distance": 357212,
+    "Diameter": 33.45,
+    "Relative": 0.996
+  },
+  {
+    "Date": "27/04/2002",
+    "Time": "03:00:00",
+    "Eclipse": "",
+    "Distance": 361870,
+    "Diameter": 33.02,
+    "Relative": 0.961
+  }
+ ]

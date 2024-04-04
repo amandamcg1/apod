@@ -30,6 +30,38 @@
 
 .content {
   opacity: 1;
-  height: 100%;
   animation: fadeOut 4s;
+  width: 70%;
+  margin: auto;
 } 
+
+.timeline-container {
+  width: 100%;
+}
+
+.timeline-title {
+  font-size: 2em;
+  text-align: center;
+
+}
+h3 {
+  padding-top: 0.25em;
+}
+
+.vertical-timeline-element-content {
+  box-shadow: none !important;
+  padding: 2em 3em !important;
+  /* background-color: lightgrey !important; */
+}
+
+.date {
+  color: white;
+}
+
+@media only screen and (max-width: 1700px) {
+  .vertical-timeline-element-date {
+    display: block !important;
+    float: none !important;
+    color: black;
+  }
+}
