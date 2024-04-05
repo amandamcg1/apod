@@ -9,7 +9,7 @@
   100% {height: 90px}
 }
 
-.header {
+.supermoon-header {
   top: 0;
   left: 0;
   width: 100%;
@@ -28,12 +28,28 @@
   100% { opacity: 1; height: 100%; }
 }
 
-.content {
+.supermoon-content {
   opacity: 1;
   animation: fadeOut 4s;
-  width: 70%;
-  margin: auto;
 } 
+
+.supermoon-heading {
+  font-size: 16pt;
+  font-weight: 800;
+  padding-bottom: 25px;
+}
+
+.supermoon-cycle, .supermoon-bigger-and-brighter, .supermoon-special, .timeline-container {
+  margin-top: 80px;
+}
+
+
+
+
+
+
+
+
 
 .timeline-container {
   width: 100%;
@@ -63,5 +79,92 @@ h3 {
     display: block !important;
     float: none !important;
     color: black;
+  }
+}
+
+
+@media only screen and (max-width: 600px) {
+  .supermoon-intro {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    background-color: lightskyblue;
+  }
+  
+  .supermoon-image {
+    
+  }
+  
+  .supermoon-intro-text {
+    
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  
+  .supermoon-intro {
+    /* background-color: lightcoral; */
+  }  
+}
+
+@media only screen and (min-width: 768px) {
+  
+  .supermoon-intro {
+    /* background-color: lightseagreen; */
+  }  
+}
+
+@media only screen and (min-width: 1200px) {
+  .supermoon-content {
+    width: 70%;
+    margin: auto;
+  }
+
+  /* Supermoon Intro **START** */
+  .supermoon-intro {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    /* background-color: lightgreen; */
+  }  
+  .supermoon-image {
+    width: 35%;
+    margin-top: -40px;
+  }
+  
+  .supermoon-intro-content {
+    width: 50%;
+    margin-top: 100px;
+  }
+  /* Supermoon Intro **END** */
+
+  /* Supermoon Cycle **START** */
+  .supermoon-cycle {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .supermoon-cycle-content {
+    width: 50%;
+  }
+
+  .supermoon-perigeeapogee {
+    width: 35%;
+  }
+  /* Supermoon Cycle **END** */
+
+  /* Supermoon Bigger and Brighter **START** */
+  .supermoon-bigger-and-brighter {
+    display: flex;
+    justify-content: space-between;
+
+  }
+
+  .supermoon-infographic {
+    width: 35%;
+  }
+
+  .supermoon-bigger-and-brighter-content {
+    width: 50%;
   }
 }
