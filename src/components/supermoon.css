@@ -6,14 +6,14 @@
 @keyframes mymove {
   0% {height: 100vh}
   50% {height: 100vh}
-  100% {height: 90px}
+  100% {height: 120px}
 }
 
 .supermoon-header {
   top: 0;
   left: 0;
   width: 100%;
-  height: 90px;
+  height: 120px;
   border: 1px solid black;
   background-image: url('../images/background.png');
   background-size: cover;
@@ -34,7 +34,7 @@
 } 
 
 .supermoon-heading {
-  font-size: 16pt;
+
   font-weight: 800;
   padding-bottom: 25px;
 }
@@ -43,6 +43,9 @@
   margin-top: 80px;
 }
 
+.supermoon-intro-text, .supermoon-cycle-text, .supermoon-bigger-and-brighter-text, .supermoon-special-text {
+  text-align: justify;
+}
 
 
 
@@ -83,41 +86,121 @@ h3 {
 }
 
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 480px) {
+  .supermoon-heading {
+    padding-bottom: 15px;
+  }
+  .supermoon-heading-main {
+    font-size: 12pt;
+  }
+  .supermoon-heading {
+    font-size: 15pt;
+  }
+  .supermoon-content {
+    width: 90%;
+    margin: auto;
+    font-size: 11pt;
+    margin-top: 40px;
+  }
+
+  /* Supermoon Intro **START** */
   .supermoon-intro {
     display: flex;
-    justify-content: space-between;
-    flex-direction: row-reverse;
-    background-color: lightskyblue;
-  }
-  
-  .supermoon-image {
-    
-  }
-  
+    flex-direction: column-reverse;
+  } 
+
   .supermoon-intro-text {
-    
+    margin-bottom: 60px;
+  }
+  /* Supermoon Intro **END** */
+
+  /* Supermoon Cycle **START** */
+  .supermoon-cycle {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .supermoon-cycle-text {
+    margin-bottom: 60px;
+  }
+  /* Supermoon Cycle **END** */
+
+  /* Supermoon Bigger and Brighter **START** */
+  .supermoon-bigger-and-brighter {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .supermoon-bigger-and-brighter-content {
+    margin-bottom: 60px;
   }
 }
 
-@media only screen and (min-width: 600px) {
-  
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  .supermoon-heading {
+    padding-bottom: 15px;
+  }
+  .supermoon-heading-main {
+    font-size: 12pt;
+  }
+  .supermoon-heading {
+    font-size: 15pt;
+  }
+  .supermoon-content {
+    width: 75%;
+    margin: auto;
+    font-size: 11pt;
+    margin-top: 40px;
+  }
+
+  /* Supermoon Intro **START** */
   .supermoon-intro {
-    /* background-color: lightcoral; */
-  }  
+    display: flex;
+    flex-direction: column-reverse;
+  } 
+
+  .supermoon-intro-text {
+    margin-bottom: 60px;
+  }
+  /* Supermoon Intro **END** */
+
+  /* Supermoon Cycle **START** */
+  .supermoon-cycle {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .supermoon-cycle-text {
+    margin-bottom: 60px;
+  }
+  /* Supermoon Cycle **END** */
+
+  /* Supermoon Bigger and Brighter **START** */
+  .supermoon-bigger-and-brighter {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .supermoon-bigger-and-brighter-content {
+    margin-bottom: 60px;
+  }
 }
 
 @media only screen and (min-width: 768px) {
-  
-  .supermoon-intro {
-    /* background-color: lightseagreen; */
-  }  
-}
-
-@media only screen and (min-width: 1200px) {
+  .supermoon-heading {
+    padding-bottom: 15px;
+  }
+  .supermoon-heading-main {
+    font-size: 14pt;
+  }
+  .supermoon-heading {
+    font-size: 15pt;
+  }
   .supermoon-content {
-    width: 70%;
+    width: 80%;
     margin: auto;
+    font-size: 11pt;
+    margin-top: 20px;
   }
 
   /* Supermoon Intro **START** */
@@ -125,16 +208,16 @@ h3 {
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-between;
+    align-items: center;
+    
     /* background-color: lightgreen; */
   }  
   .supermoon-image {
-    width: 35%;
-    margin-top: -40px;
+    width: 36%;
   }
   
   .supermoon-intro-content {
-    width: 50%;
-    margin-top: 100px;
+    width: 60%;
   }
   /* Supermoon Intro **END** */
 
@@ -142,7 +225,56 @@ h3 {
   .supermoon-cycle {
     display: flex;
     justify-content: space-between;
+    align-items: center;
   }
+
+  .supermoon-cycle-content {
+    width: 60%;
+  }
+
+  .supermoon-perigeeapogee {
+    width: 36%;
+  }
+  /* Supermoon Cycle **END** */
+
+  /* Supermoon Bigger and Brighter **START** */
+  .supermoon-bigger-and-brighter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .supermoon-infographic {
+    width: 36%;
+  }
+
+  .supermoon-bigger-and-brighter-content {
+    width: 60%;
+  }
+}
+
+@media only screen and (min-width: 1025px) {
+  .supermoon-heading-main {
+    font-size: 14pt;
+  }
+  .supermoon-heading {
+    font-size: 18pt;
+  }
+  .supermoon-content {
+    width: 75%;
+    font-size: 12pt;
+  }
+  .supermoon-image {
+    width: 40%;
+    margin-top: -30px;
+  }
+  
+  .supermoon-intro-content {
+    width: 50%;
+  }
+  /* Supermoon Intro **END** */
+
+  /* Supermoon Cycle **START** */
 
   .supermoon-cycle-content {
     width: 50%;
@@ -154,11 +286,6 @@ h3 {
   /* Supermoon Cycle **END** */
 
   /* Supermoon Bigger and Brighter **START** */
-  .supermoon-bigger-and-brighter {
-    display: flex;
-    justify-content: space-between;
-
-  }
 
   .supermoon-infographic {
     width: 35%;
@@ -166,5 +293,17 @@ h3 {
 
   .supermoon-bigger-and-brighter-content {
     width: 50%;
+  }
+}
+
+@media only screen and (min-width: 1300px) {
+  .supermoon-heading-main {
+    font-size: 20pt;
+  }
+  .supermoon-heading {
+    font-size: 24pt;
+  }
+  .supermoon-content {
+    font-size: 14pt;
   }
 }

@@ -29,9 +29,39 @@ const Supermoon = () => {
     background: '#274689',
   }
 
+  const [width, setWidth] = React.useState(window.innerWidth);
+
+  React.useEffect(() => {
+    const handleResize = () => {
+      setWidth(window.innerWidth);
+    };
+
+    window.addEventListener('resize', handleResize);
+
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
+  }, []);
+
   return (
     <div className='supermoonpage'>
-      <div className='supermoon-header'>
+      <div className='supermoon-header' style={{color: 'white'}}>{width}
+        {/* <div 
+          className='header-text' 
+          style={{
+            width: '75%',
+            height: '80%',
+            margin: 'auto',
+            position: 'relative',
+          }}>
+            <span style={{
+              position: 'absolute',
+              bottom: 0,
+              right: 0,
+              width: '50%',
+              fontSize: '5em'
+            }}> SUPERMOON</span>
+        </div> */}
       </div>
       <div className='supermoon-content'>
         <div className='supermoon-intro'>
@@ -39,7 +69,8 @@ const Supermoon = () => {
             <img src={supermoon} alt='Super Moon' width='100%'/>
           </div>
           <div className='supermoon-intro-content'>
-            <div className='supermoon-heading supermoon-intro-heading'>Super Moons</div>
+            <div className='supermoon-heading-main'>SUPERMOONS</div>
+            <div className='supermoon-heading supermoon-intro-heading'>Introduction To Supermoons</div>
             <div className='supermoon-intro-text'>
               Have you ever gazed up at a full moon and marveled 
               at its size and brilliance? Sometimes, the moon 
@@ -175,7 +206,7 @@ const Supermoon = () => {
 
 
 
-        <div className='timeline-container' style={{ backgroundColor: '#E22C6F', overflowY: 'auto', height: '600px', }}>
+        <div className='timeline-container' style={{ backgroundColor: '#E22C6F', overflowY: 'auto', height: '900px', marginBottom: '100px' }}>
           <h1 className='timeline-title'>Supermoon Timeline</h1>
           <VerticalTimeline>
             {supermoonArray.map(element => {
