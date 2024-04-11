@@ -45,11 +45,16 @@ function Moonandflash() {
             when the moon (or sun) sits low on the horizon, where the light travels through a 
             thicker layer of atmosphere. Under specific atmospheric conditions, with a clear sky 
             and minimal turbulence, a brief flash of green light can appear just above the moon's 
-            upper limb, as seen in the image. For more info on the Green Flash . A supermoon 
-            occurs when a full moon coincides with the moon's closest approach to Earth in its 
+            upper limb, as seen in the image. For more info on the Green Flash vistit <Link to='/greenflash' style={{ color: 'black'}}>here</Link>. 
+            <br/><br/>
+            A supermoon occurs when a full moon coincides with the moon's closest approach to Earth in its 
             elliptical orbit. This makes the moon appear slightly larger and brighter than usual, 
             captivating skywatchers around the globe.  The term "supermoon" isn't an official 
-            astronomical term, but it has become widely used due to its public appeal. While 
+            astronomical term, but it has become widely used due to its public appeal. For more
+            info on Supermoons visit <Link to='/supermoons' style={{ color: 'black'}}>here</Link>.
+            
+            <br/><br/>
+            While 
             both supermoons and green flashes are relatively rare occurrences on their own, witnessing 
             them together is an exceptional sight. The fleeting nature of the green flash, 
             lasting only a few seconds, makes this a particularly challenging event to observe.
@@ -59,14 +64,14 @@ function Moonandflash() {
             <div className="moonandflash-observation-heading">Observation Tips</div>
             <div className="moonandflash-observation-text">
               Tips for Observing the Green Flash During a Super Moon Event:
-              <ol>
-                <li>Choose Optimal Viewing Locations: Seek out locations with unobstructed views of the horizon, such as coastal areas or elevated vantage points.
+              <ol style={{ lineHeight: '1.5'}}>
+                <li><b>Choose Optimal Viewing Locations:</b> Seek out locations with unobstructed views of the horizon, such as coastal areas or elevated vantage points.
   </li>
-                <li>Timing: Plan your observation session to coincide with sunset or sunrise, when the Green Flash is most likely to occur. Check the specific timing of the Super Moon event for enhanced visibility.
+                <li><b>Timing:</b> Plan your observation session to coincide with sunset or sunrise, when the Green Flash is most likely to occur. Check the specific timing of the Super Moon event for enhanced visibility.
   </li>
-                <li>Sun Safety: Never look directly at the sun, especially when it's close to the horizon. Wait until the sun is almost entirely below the horizon before attempting to spot the Green Flash.
+                <li><b>Sun Safety:</b> Never look directly at the sun, especially when it's close to the horizon. Wait until the sun is almost entirely below the horizon before attempting to spot the Green Flash.
   </li>
-                <li>Patience and Persistence: Observing the Green Flash requires patience and persistence. Stay vigilant and be prepared to wait for the precise moment when atmospheric conditions align for optimal viewing.
+                <li><b>Patience and Persistence:</b> Observing the Green Flash requires patience and persistence. Stay vigilant and be prepared to wait for the precise moment when atmospheric conditions align for optimal viewing.
   </li>
               </ol>
             </div>
