@@ -60,7 +60,7 @@ function Moonandflash() {
             lasting only a few seconds, makes this a particularly challenging event to observe.
           </div>
 
-          <div className="moonandflash-observation">
+          <div className="moonandflash-observation" style={{paddingBottom: '60px'}}>
             <div className="moonandflash-observation-heading">Observation Tips</div>
             <div className="moonandflash-observation-text">
               Tips for Observing the Green Flash During a Super Moon Event:

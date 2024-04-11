@@ -110,7 +110,7 @@ function Greenflash() {
             sunrise over a distant mountain. However, it wasn't until 1883 that 
             Swan's observation was published, coinciding with reports of unusual 
             atmospheric phenomena following the eruption of the Krakatoa volcano. 
-            https://www.space.com/green-flash-earth-sunrise-sunset 
+            (Rao, 2023)
           </div>
         </div>
         <div className='greenflash-howcontainer'>
@@ -184,6 +184,8 @@ function Greenflash() {
         Helmenstine, A. (2023) The green flash and how to see it, Science Notes and Projects. Available at: https://sciencenotes.org/the-green-flash-and-how-to-see-it/ (Accessed: 11 April 2024). 
         <br/><br/>
         Lawrence, P. (2020) The green flash of venus: What it is and how to see it, BBC Sky at Night Magazine. Available at: https://www.skyatnightmagazine.com/advice/skills/green-flash-venus-what-is-how-see (Accessed: 11 April 2024). 
+        <br/><br/>
+        Rao, J. (2023) What causes the strange green flash at sunset and sunrise on Earth?, Space.com. Available at: https://www.space.com/green-flash-earth-sunrise-sunset (Accessed: 11 April 2024). 
         </div>
 
               
