@@ -1,262 +1,621 @@
 [
   {
-   "date": "9\/2\/2020",
-   "time": "07:33:00",
-   "distance": 362479,
-   "diameter": 32.97,
-   "relativeDistance": 0.955,
-   "relativeBrightness": "1.251\/1.125"
+    "date": "09\/02\/2020",
+    "time": "7:33:00",
+    "distance": 362479,
+    "diameter": 32.97,
+    "relativeDistance": 0.955,
+    "relativeBrightness": "1.251\/1.125",
+    "Supermoon": "Full"
   },
   {
-   "date": "9\/3\/2020",
-   "time": "17:48:00",
-   "distance": 357404,
-   "diameter": 33.43,
-   "relativeDistance": 0.994,
-   "relativeBrightness": "1.292\/1.157 "
+    "date": "09\/03\/2020",
+    "time": "17:48:00",
+    "distance": 357404,
+    "diameter": 33.43,
+    "relativeDistance": 0.994,
+    "relativeBrightness": "1.292\/1.157 ",
+    "Supermoon": "Full"
   },
   {
-   "date": "8\/4\/2020",
-   "time": "02:35:00",
-   "distance": 357035,
-   "diameter": 33.47,
-   "relativeDistance": 0.997,
-   "relativeBrightness": "1.296\/1.159"
+    "date": "08\/04\/2020",
+    "time": "2:35:00",
+    "distance": 357035,
+    "diameter": 33.47,
+    "relativeDistance": 0.997,
+    "relativeBrightness": "1.296\/1.159",
+    "Supermoon": "Full"
   },
   {
-   "date": "7\/5\/2020",
-   "time": "10:45:00",
-   "distance": 361184,
-   "diameter": 33.08,
-   "relativeDistance": 0.967,
-   "relativeBrightness": "1.261\/1.133"
+    "date": "07\/05\/2020",
+    "time": "10:45:00",
+    "distance": 361184,
+    "diameter": 33.08,
+    "relativeDistance": 0.967,
+    "relativeBrightness": "1.261\/1.133",
+    "Supermoon": "Full"
   },
   {
-   "date": "28\/3\/2021",
-   "time": "18:48:00",
-   "distance": 362170,
-   "diameter": 32.99,
-   "relativeDistance": 0.959,
-   "relativeBrightness": "1.252\/1.127"
+    "date": "19\/08\/2020",
+    "time": "2:42:00",
+    "distance": 367386,
+    "diameter": 32.53,
+    "relativeDistance": 0.906,
+    "Supermoon": "New"
   },
   {
-   "date": "27\/4\/2021",
-   "time": "03:31:00",
-   "distance": 357615,
-   "diameter": 33.41,
-   "relativeDistance": 0.995,
-   "relativeBrightness": "1.290\/1.155"
+    "date": "17\/09\/2020",
+    "time": "11:00:00",
+    "distance": 360215,
+    "diameter": 33.17,
+    "relativeDistance": 0.976,
+    "Supermoon": "New"
   },
   {
-   "date": "26\/5\/2021",
-   "time": "11:14:00",
-   "eclipse": "t",
-   "distance": 357462,
-   "diameter": 33.43,
-   "relativeDistance": 0.997,
-   "relativeBrightness": "1.291\/1.156"
+    "date": "16\/10\/2020",
+    "time": "19:31:00",
+    "distance": 356948,
+    "diameter": 33.48,
+    "relativeDistance": 0.999,
+    "Supermoon": "New"
   },
   {
-   "date": "24\/6\/2021",
-   "time": "18:40:00",
-   "distance": 361558,
-   "diameter": 33.05,
-   "relativeDistance": 0.965,
-   "relativeBrightness": "1.257\/1.130"
+    "date": "15\/11\/2020",
+    "time": "5:07:00",
+    "distance": 358348,
+    "diameter": 33.35,
+    "relativeDistance": 0.989,
+    "Supermoon": "New"
   },
   {
-   "date": "16\/5\/2022",
-   "time": "04:14:00",
-   "eclipse": "t",
-   "distance": 362127,
-   "diameter": 33,
-   "relativeDistance": 0.959,
-   "relativeBrightness": "1.252\/1.127"
+    "date": "13\/12\/2020",
+    "time": "16:17:00",
+    "eclipse": "t",
+    "distance": 364414,
+    "diameter": 32.79,
+    "relativeDistance": 0.939,
+    "Supermoon": "New"
   },
   {
-   "date": "14\/6\/2022",
-   "time": "11:52:00",
-   "distance": 357658,
-   "diameter": 33.41,
-   "relativeDistance": 0.995,
-   "relativeBrightness": "1.290\/1.155"
+    "date": "28\/03\/2021",
+    "time": "18:48:00",
+    "distance": 362170,
+    "diameter": 32.99,
+    "relativeDistance": 0.959,
+    "relativeBrightness": "1.252\/1.127",
+    "Supermoon": "Full"
   },
   {
-   "date": "13\/7\/2022",
-   "time": "18:37:00",
-   "distance": 357418,
-   "diameter": 33.43,
-   "relativeDistance": 0.997,
-   "relativeBrightness": "1.292\/1.157"
+    "date": "11\/04\/2021",
+    "time": "21:15:00",
+    "distance": 359854,
+    "diameter": 33.21,
+    "relativeDistance": 0.978,
+    "Supermoon": "New"
   },
   {
-   "date": "12\/8\/2022",
-   "time": "01:36:00",
-   "distance": 361409,
-   "diameter": 33.06,
-   "relativeDistance": 0.965,
-   "relativeBrightness": "1.258\/1.131"
+    "date": "12\/04\/2021",
+    "time": "7:43:00",
+    "eclipse": "t",
+    "distance": 356804,
+    "diameter": 33.49,
+    "relativeDistance": "1.000",
+    "Supermoon": "New"
   },
   {
-   "date": "3\/7\/2023",
-   "time": "11:39:00",
-   "distance": 361934,
-   "diameter": 33.02,
-   "relativeDistance": 0.961,
-   "relativeBrightness": "1.254\/1.128"
+    "date": "27\/04\/2021",
+    "time": "3:31:00",
+    "distance": 357615,
+    "diameter": 33.41,
+    "relativeDistance": 0.995,
+    "relativeBrightness": "1.290\/1.155",
+    "Supermoon": "Full"
   },
   {
-   "date": "1\/8\/2023",
-   "time": "18:32:00",
-   "distance": 357530,
-   "diameter": 33.42,
-   "relativeDistance": 0.996,
-   "relativeBrightness": "1.291\/1.156"
+    "date": "26\/05\/2021",
+    "time": "11:14:00",
+    "eclipse": "t",
+    "distance": 357462,
+    "diameter": 33.43,
+    "relativeDistance": 0.997,
+    "relativeBrightness": "1.291\/1.156",
+    "Supermoon": "Full"
   },
   {
-   "date": "31\/8\/2023",
-   "time": "01:35:00",
-   "distance": 357344,
-   "diameter": 33.44,
-   "relativeDistance": 0.997,
-   "relativeBrightness": "1.293\/1.157"
+    "date": "10\/06\/2021",
+    "time": "11:05:00",
+    "distance": 367084,
+    "diameter": 32.55,
+    "relativeDistance": 0.91,
+    "Supermoon": "New"
   },
   {
-   "date": "29\/9\/2023",
-   "time": "09:58:00",
-   "distance": 361552,
-   "diameter": 33.05,
-   "relativeDistance": 0.964,
-   "relativeBrightness": "1.257\/1.130"
+    "date": "24\/06\/2021",
+    "time": "18:40:00",
+    "distance": 361558,
+    "diameter": 33.05,
+    "relativeDistance": 0.965,
+    "relativeBrightness": "1.257\/1.130",
+    "Supermoon": "Full"
   },
   {
-   "date": "19\/8\/2024",
-   "time": "18:26:00",
-   "distance": 361970,
-   "diameter": 33.01,
-   "relativeDistance": 0.961,
-   "relativeBrightness": "1.254\/1.128"
+    "date": "02\/01\/2022",
+    "time": "5:46:00",
+    "distance": 365182,
+    "diameter": 32.72,
+    "relativeDistance": 0.931,
+    "Supermoon": "New"
   },
   {
-   "date": "18\/9\/2024",
-   "time": "02:34:00",
-   "eclipse": "p",
-   "distance": 357486,
-   "diameter": 33.43,
-   "relativeDistance": 0.996,
-   "relativeBrightness": "1.291\/1.156"
+    "date": "01\/02\/2022",
+    "time": "18:34:00",
+    "distance": 358676,
+    "diameter": 33.32,
+    "relativeDistance": 0.987,
+    "Supermoon": "New"
   },
   {
-   "date": "17\/10\/2024",
-   "time": "11:26:00",
-   "distance": 357364,
-   "diameter": 33.44,
-   "relativeDistance": 0.996,
-   "relativeBrightness": "1.292\/1.157"
+    "date": "16\/05\/2022",
+    "time": "4:14:00",
+    "eclipse": "t",
+    "distance": 362127,
+    "diameter": 33,
+    "relativeDistance": 0.959,
+    "relativeBrightness": "1.252\/1.127",
+    "Supermoon": "Full"
   },
   {
-   "date": "15\/11\/2024",
-   "time": "21:29:00",
-   "distance": 361867,
-   "diameter": 33.02,
-   "relativeDistance": 0.961,
-   "relativeBrightness": "1.254\/1.128"
+    "date": "14\/06\/2022",
+    "time": "11:52:00",
+    "distance": 357658,
+    "diameter": 33.41,
+    "relativeDistance": 0.995,
+    "relativeBrightness": "1.290\/1.155",
+    "Supermoon": "Full"
   },
   {
-   "date": "7\/10\/2025",
-   "time": "03:48:00",
-   "distance": 361458,
-   "diameter": 33.06,
-   "relativeDistance": 0.964,
-   "relativeBrightness": "1.259\/1.131"
+    "date": "13\/07\/2022",
+    "time": "18:37:00",
+    "distance": 357418,
+    "diameter": 33.43,
+    "relativeDistance": 0.997,
+    "relativeBrightness": "1.292\/1.157",
+    "Supermoon": "Full"
   },
   {
-   "date": "5\/11\/2025",
-   "time": "13:19:00",
-   "distance": 356980,
-   "diameter": 33.47,
-   "relativeDistance": 0.997,
-   "relativeBrightness": "1.296\/1.160"
+    "date": "12\/08\/2022",
+    "time": "1:36:00",
+    "distance": 361409,
+    "diameter": 33.06,
+    "relativeDistance": 0.965,
+    "relativeBrightness": "1.258\/1.131",
+    "Supermoon": "Full"
   },
   {
-   "date": "4\/12\/2025",
-   "time": "23:14:00",
-   "distance": 357219,
-   "diameter": 33.45,
-   "relativeDistance": 0.995,
-   "relativeBrightness": "1.294\/1.158"
+    "date": "23\/11\/2022",
+    "time": "22:57:00",
+    "distance": 366161,
+    "diameter": 32.63,
+    "relativeDistance": 0.921,
+    "Supermoon": "New"
   },
   {
-   "date": "3\/1\/2026",
-   "time": "10:03:00",
-   "distance": 362312,
-   "diameter": 32.98,
-   "relativeDistance": 0.956,
-   "relativeBrightness": "1.252\/1.126"
+    "date": "23\/12\/2022",
+    "time": "10:17:00",
+    "distance": 359083,
+    "diameter": 33.28,
+    "relativeDistance": 0.983,
+    "Supermoon": "New"
   },
   {
-   "date": "24\/11\/2026",
-   "time": "14:53:00",
-   "distance": 360768,
-   "diameter": 33.12,
-   "relativeDistance": 0.969,
-   "relativeBrightness": "1.264\/1.135"
+    "date": "21\/01\/2023",
+    "time": "20:53:00",
+    "distance": 356571,
+    "diameter": 33.51,
+    "relativeDistance": "1.000",
+    "Supermoon": "New"
   },
   {
-   "date": "24\/12\/2026",
-   "time": "01:28:00",
-   "distance": 356740,
-   "diameter": 33.5,
-   "relativeDistance": 0.998,
-   "relativeBrightness": "1.298\/1.161"
+    "date": "20\/02\/2023",
+    "time": "7:06:00",
+    "distance": 359065,
+    "diameter": 33.28,
+    "relativeDistance": 0.983,
+    "Supermoon": "New"
   },
   {
-   "date": "22\/1\/2027",
-   "time": "12:17:00",
-   "distance": "357644 m",
-   "diameter": 33.41,
-   "relativeDistance": 0.993,
-   "relativeBrightness": "1.290\/1.155"
+    "date": "21\/03\/2023",
+    "time": "17:23:00",
+    "distance": 365979,
+    "diameter": 32.65,
+    "relativeDistance": 0.922,
+    "Supermoon": "New"
   },
   {
-   "date": "20\/2\/2027",
-   "time": "23:24:00",
-   "eclipse": "n",
-   "distance": 363306,
-   "diameter": 32.89,
-   "relativeDistance": 0.948,
-   "relativeBrightness": "1.244\/1.119"
+    "date": "03\/07\/2023",
+    "time": "11:39:00",
+    "distance": 361934,
+    "diameter": 33.02,
+    "relativeDistance": 0.961,
+    "relativeBrightness": "1.254\/1.128",
+    "Supermoon": "Full"
   },
   {
-   "date": "12\/1\/2028",
-   "time": "04:03:00",
-   "distance": 360266,
-   "diameter": 33.17,
-   "relativeDistance": 0.974,
-   "relativeBrightness": "1.268\/1.138"
+    "date": "01\/08\/2023",
+    "time": "18:32:00",
+    "distance": 357530,
+    "diameter": 33.42,
+    "relativeDistance": 0.996,
+    "relativeBrightness": "1.291\/1.156",
+    "Supermoon": "Full"
   },
   {
-   "date": "10\/2\/2028",
-   "time": "15:04:00",
-   "distance": 356720,
-   "diameter": 33.5,
-   "relativeDistance": 0.999,
-   "relativeBrightness": "1.298\/1.161"
+    "date": "31\/08\/2023",
+    "time": "1:35:00",
+    "distance": 357344,
+    "diameter": 33.44,
+    "relativeDistance": 0.997,
+    "relativeBrightness": "1.293\/1.157",
+    "Supermoon": "Full"
   },
   {
-   "date": "11\/3\/2028",
-   "time": "01:06:00",
-   "distance": 358074,
-   "diameter": 33.37,
-   "relativeDistance": 0.99,
-   "relativeBrightness": "1.286\/1.152"
+    "date": "29\/09\/2023",
+    "time": "9:58:00",
+    "distance": 361552,
+    "diameter": 33.05,
+    "relativeDistance": 0.964,
+    "relativeBrightness": "1.257\/1.130",
+    "Supermoon": "Full"
   },
   {
-   "date": "9\/4\/2028",
-   "time": "10:27:00",
-   "distance": 363867,
-   "diameter": 32.84,
-   "relativeDistance": 0.943,
-   "relativeBrightness": "1.239\/1.116"
+    "date": "11\/01\/2024",
+    "time": "11:57:00",
+    "distance": 365204,
+    "diameter": 32.72,
+    "relativeDistance": 0.931,
+    "Supermoon": "New"
+  },
+  {
+    "date": "09\/02\/2024",
+    "time": "22:59:00",
+    "distance": 358745,
+    "diameter": 33.31,
+    "relativeDistance": 0.986,
+    "Supermoon": "New"
+  },
+  {
+    "date": "10\/03\/2024",
+    "time": "9:00:00",
+    "distance": 356900,
+    "diameter": 33.48,
+    "relativeDistance": "1.000",
+    "Supermoon": "New"
+  },
+  {
+    "date": "08\/04\/2024",
+    "time": "18:21:00",
+    "eclipse": "t",
+    "distance": 359810,
+    "diameter": 33.21,
+    "relativeDistance": 0.979,
+    "Supermoon": "New"
+  },
+  {
+    "date": "08\/05\/2024",
+    "time": "3:22:00",
+    "distance": 366739,
+    "diameter": 32.58,
+    "relativeDistance": 0.914,
+    "Supermoon": "New"
+  },
+  {
+    "date": "19\/08\/2024",
+    "time": "18:26:00",
+    "distance": 361970,
+    "diameter": 33.01,
+    "relativeDistance": 0.961,
+    "relativeBrightness": "1.254\/1.128",
+    "Supermoon": "Full"
+  },
+  {
+    "date": "18\/09\/2024",
+    "time": "2:34:00",
+    "eclipse": "p",
+    "distance": 357486,
+    "diameter": 33.43,
+    "relativeDistance": 0.996,
+    "relativeBrightness": "1.291\/1.156",
+    "Supermoon": "Full"
+  },
+  {
+    "date": "17\/10\/2024",
+    "time": "11:26:00",
+    "distance": 357364,
+    "diameter": 33.44,
+    "relativeDistance": 0.996,
+    "relativeBrightness": "1.292\/1.157",
+    "Supermoon": "Full"
+  },
+  {
+    "date": "15\/11\/2024",
+    "time": "21:29:00",
+    "distance": 361867,
+    "diameter": 33.02,
+    "relativeDistance": 0.961,
+    "relativeBrightness": "1.254\/1.128",
+    "Supermoon": "Full"
+  },
+  {
+    "date": "28\/02\/2025",
+    "time": "0:45:00",
+    "distance": 364692,
+    "diameter": 32.77,
+    "relativeDistance": 0.936,
+    "Supermoon": "New"
+  },
+  {
+    "date": "29\/03\/2025",
+    "time": "10:58:00",
+    "eclipse": "p",
+    "distance": 358693,
+    "diameter": 33.31,
+    "relativeDistance": 0.988,
+    "Supermoon": "New"
+  },
+  {
+    "date": "27\/04\/2025",
+    "time": "19:31:00",
+    "distance": 357141,
+    "diameter": 33.46,
+    "relativeDistance": "1.000",
+    "Supermoon": "New"
+  },
+  {
+    "date": "27\/05\/2025",
+    "time": "3:02:00",
+    "distance": 360044,
+    "diameter": 33.19,
+    "relativeDistance": 0.978,
+    "Supermoon": "New"
+  },
+  {
+    "date": "25\/06\/2025",
+    "time": "10:31:00",
+    "distance": 366786,
+    "diameter": 32.58,
+    "relativeDistance": 0.913,
+    "Supermoon": "New"
+  },
+  {
+    "date": "07\/10\/2025",
+    "time": "3:48:00",
+    "distance": 361458,
+    "diameter": 33.06,
+    "relativeDistance": 0.964,
+    "relativeBrightness": "1.259\/1.131",
+    "Supermoon": "Full"
+  },
+  {
+    "date": "05\/11\/2025",
+    "time": "13:19:00",
+    "distance": 356980,
+    "diameter": 33.47,
+    "relativeDistance": 0.997,
+    "relativeBrightness": "1.296\/1.160",
+    "Supermoon": "Full"
+  },
+  {
+    "date": "04\/12\/2025",
+    "time": "23:14:00",
+    "distance": 357219,
+    "diameter": 33.45,
+    "relativeDistance": 0.995,
+    "relativeBrightness": "1.294\/1.158",
+    "Supermoon": "Full"
+  },
+  {
+    "date": "03\/01\/2026",
+    "time": "10:03:00",
+    "distance": 362312,
+    "diameter": 32.98,
+    "relativeDistance": 0.956,
+    "relativeBrightness": "1.252\/1.126",
+    "Supermoon": "Full"
+  },
+  {
+    "date": "17\/04\/2026",
+    "time": "11:52:00",
+    "distance": 364194,
+    "diameter": 32.81,
+    "relativeDistance": 0.941,
+    "Supermoon": "New"
+  },
+  {
+    "date": "16\/05\/2026",
+    "time": "20:01:00",
+    "distance": 358594,
+    "diameter": 33.32,
+    "relativeDistance": 0.989,
+    "Supermoon": "New"
+  },
+  {
+    "date": "15\/06\/2026",
+    "time": "2:54:00",
+    "distance": 357221,
+    "diameter": 33.45,
+    "relativeDistance": "1.000",
+    "Supermoon": "New"
+  },
+  {
+    "date": "14\/07\/2026",
+    "time": "9:44:00",
+    "distance": 360154,
+    "diameter": 33.18,
+    "relativeDistance": 0.978,
+    "Supermoon": "New"
+  },
+  {
+    "date": "12\/08\/2026",
+    "time": "17:37:00",
+    "eclipse": "t",
+    "distance": 366958,
+    "diameter": 32.56,
+    "relativeDistance": 0.911,
+    "Supermoon": "New"
+  },
+  {
+    "date": "24\/11\/2026",
+    "time": "14:53:00",
+    "distance": 360768,
+    "diameter": 33.12,
+    "relativeDistance": 0.969,
+    "relativeBrightness": "1.264\/1.135",
+    "Supermoon": "Full"
+  },
+  {
+    "date": "24\/12\/2026",
+    "time": "1:28:00",
+    "distance": 356740,
+    "diameter": 33.5,
+    "relativeDistance": 0.998,
+    "relativeBrightness": "1.298\/1.161",
+    "Supermoon": "Full"
+  },
+  {
+    "date": "22\/01\/2027",
+    "time": "12:17:00",
+    "distance": "357644 m",
+    "diameter": 33.41,
+    "relativeDistance": 0.993,
+    "relativeBrightness": "1.290\/1.155",
+    "Supermoon": "Full"
+  },
+  {
+    "date": "20\/02\/2027",
+    "time": "23:24:00",
+    "eclipse": "n",
+    "distance": 363306,
+    "diameter": 32.89,
+    "relativeDistance": 0.948,
+    "relativeBrightness": "1.244\/1.119",
+    "Supermoon": "Full"
+  },
+  {
+    "date": "04\/06\/2027",
+    "time": "19:40:00",
+    "distance": 364258,
+    "diameter": 32.8,
+    "relativeDistance": 0.941,
+    "Supermoon": "New"
+  },
+  {
+    "date": "04\/07\/2027",
+    "time": "3:02:00",
+    "distance": 358805,
+    "diameter": 33.3,
+    "relativeDistance": 0.989,
+    "Supermoon": "New"
+  },
+  {
+    "date": "02\/08\/2027",
+    "time": "10:05:00",
+    "eclipse": "t",
+    "distance": 357387,
+    "diameter": 33.44,
+    "relativeDistance": 0.999,
+    "Supermoon": "New"
+  },
+  {
+    "date": "31\/08\/2027",
+    "time": "17:41:00",
+    "distance": 360264,
+    "diameter": 33.17,
+    "relativeDistance": 0.977,
+    "Supermoon": "New"
+  },
+  {
+    "date": "30\/09\/2027",
+    "time": "2:36:00",
+    "distance": 367134,
+    "diameter": 32.55,
+    "relativeDistance": 0.91,
+    "Supermoon": "New"
+  },
+  {
+    "date": "12\/01\/2028",
+    "time": "4:03:00",
+    "distance": 360266,
+    "diameter": 33.17,
+    "relativeDistance": 0.974,
+    "relativeBrightness": "1.268\/1.138",
+    "Supermoon": "Full"
+  },
+  {
+    "date": "10\/02\/2028",
+    "time": "15:04:00",
+    "distance": 356720,
+    "diameter": 33.5,
+    "relativeDistance": 0.999,
+    "relativeBrightness": "1.298\/1.161",
+    "Supermoon": "Full"
+  },
+  {
+    "date": "11\/03\/2028",
+    "time": "1:06:00",
+    "distance": 358074,
+    "diameter": 33.37,
+    "relativeDistance": 0.99,
+    "relativeBrightness": "1.286\/1.152",
+    "Supermoon": "Full"
+  },
+  {
+    "date": "09\/04\/2028",
+    "time": "10:27:00",
+    "distance": 363867,
+    "diameter": 32.84,
+    "relativeDistance": 0.943,
+    "relativeBrightness": "1.239\/1.116",
+    "Supermoon": "Full"
+  },
+  {
+    "date": "22\/07\/2028",
+    "time": "3:02:00",
+    "eclipse": "t",
+    "distance": 364205,
+    "diameter": 32.81,
+    "relativeDistance": 0.941,
+    "Supermoon": "New"
+  },
+  {
+    "date": "20\/08\/2028",
+    "time": "10:44:00",
+    "distance": 358581,
+    "diameter": 33.32,
+    "relativeDistance": 0.989,
+    "Supermoon": "New"
+  },
+  {
+    "date": "18\/09\/2028",
+    "time": "18:24:00",
+    "distance": 357076,
+    "diameter": 33.46,
+    "relativeDistance": 0.999,
+    "Supermoon": "New"
+  },
+  {
+    "date": "18\/10\/2028",
+    "time": "2:57:00",
+    "distance": 360108,
+    "diameter": 33.18,
+    "relativeDistance": 0.976,
+    "Supermoon": "New"
+  },
+  {
+    "date": "16\/11\/2028",
+    "time": "13:18:00",
+    "distance": 367419,
+    "diameter": 32.52,
+    "relativeDistance": 0.907,
+    "Supermoon": "New"
   }
- ]
+  ]

@@ -23,6 +23,7 @@ const Supermoon = () => {
         relativeDistance: item.relativeDistance,
         relativeBrightness: item.relativeBrightness,
         eclipse: item.eclipse,
+        type: item.Supermoon,
       })
     })
   
@@ -31,9 +32,13 @@ const Supermoon = () => {
 
   const formatDate = (dateString) => {
     const dateParts = dateString.split('/');
-    const day = dateParts[0];
+    let day = dateParts[0];
     const month = dateParts[1];
     const year = dateParts[2];
+
+    if (day.startsWith('0')) {
+      day = day.substring(1);
+    }
   
     // Convert month from number to its name representation
     const monthNames = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
@@ -260,7 +265,9 @@ In contrast, a full supermoon coincides with the Moon's full phase, making it ap
                     <div>{element.time.split(':').slice(0, 2).join(':')} GMT</div>
                   </div>
                   
-                  <h5 className='vertical-timeline-element-subtitle'>Full ? New Supermoon</h5>
+                  <h5 className='vertical-timeline-element-subtitle'>
+                    {element.type == 'Full' ? "Full" : "New"} Supermoon
+                  </h5>
                   <p id='description' style={{ display: 'flex', justifyContent: 'space-between'}}>
                     <div>
                       {element.eclipse ? eclipseType(element.eclipse) : null}
