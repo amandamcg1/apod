@@ -76,7 +76,7 @@ const Supermoon = () => {
   const supermoonArray = buildCard()
   
   let iconStyle = {
-    background: '#274689',
+    background: '#e22c6f',
   }
 
   return (
@@ -99,7 +99,7 @@ const Supermoon = () => {
             <div className='supermoon-intro-text'>
               Have you ever gazed up at a full moon and marveled 
               at its size and brilliance? Sometimes, the moon 
-              appears larger and brighter than usual. These 
+              appears slightly larger and brighter than usual. These 
               impressive lunar displays are called supermoons.
               <br/><br/>
               Supermoons are a regular part of the Moon's orbit 
@@ -121,16 +121,17 @@ const Supermoon = () => {
               Moon's orbit around Earth. Unlike a perfect circle, 
               the Moon's orbit is elliptical. This means the 
               Moon's distance from Earth varies throughout its 
-              29.5-day lunar cycle. There are two key points in 
-              this orbit: perigee and apogee.
+              29.5-day lunar cycle. 
+              <br/><br/>
+              There are two key points in this orbit: perigee and apogee.
               <ul>
                 <li>
-                  Perigee: This is the point in the Moon's orbit 
+                  <b>Perigee:</b> This is the point in the Moon's orbit 
                   where it comes closest to Earth, at a distance 
                   of roughly 226,000 miles (363,300 kilometers).
                 </li>
                 <li>
-                  Apogee: This is the farthest point in the Moon's 
+                  <b>Apogee:</b> This is the farthest point in the Moon's 
                   orbit, where it's about 251,000 miles 
                   (405,500 kilometers) from Earth.
                 </li>
@@ -162,13 +163,13 @@ const Supermoon = () => {
           </div>
           <div className='supermoon-bigger-and-brighter-content'>
             <div className='supermoon-heading supermoon-bigger-and-brighter-heading'>Why Does the Moon Look Bigger and Brighter?</div>
-            <div className='supermoon-bigger-and-brighter-text'>
+            <div className='supermoon-bigger-and-brighter-text' style={{lineHeight: '1.5'}}>
               The Moon's elliptical orbit directly affects its 
               apparent size and brightness during a supermoon. 
               Here's why:
               <ul>
                 <li>
-                  Distance: At perigee, the Moon is about 14% 
+                  <b>Distance:</b> At perigee, the Moon is about 14% 
                   closer to Earth compared to apogee (sometimes 
                   called a micromoon). This slight distance 
                   change translates to a perceivable increase in 
@@ -176,13 +177,13 @@ const Supermoon = () => {
                   to the naked eye.
                 </li>
                 <li>
-                  Light Reflection: As the Moon is closer during
+                  <b>Light Reflection:</b> As the Moon is closer during
                   a supermoon, it reflects about 30% more 
                   sunlight towards Earth, making it appear 
                   brighter.
                 </li>
                 <li>
-                  Moon Illusion: When a supermoon rises or sets 
+                  <b>Moon Illusion:</b> When a supermoon rises or sets 
                   near the horizon, it can appear even larger due 
                   to The Moon illusion. Our brains perceive 
                   objects near the horizon as bigger compared to 
@@ -206,8 +207,7 @@ const Supermoon = () => {
           does. Blue light bends more than red light, so the blue 
           light scatters, leaving primarily the reddish hues to 
           reach the Moon's surface. This is why the eclipsed Moon 
-          appears red, earning the nickname "blood moon."
-          <br/><br/>
+          appears red, earning the nickname "blood moon." 
           The combination of a supermoon and a lunar eclipse is a 
           rare event. Because a supermoon requires the full moon 
           to be near perigee (its closest point to Earth), and a 
@@ -228,11 +228,23 @@ const Supermoon = () => {
           in the Earth's reddish shadow.
           </div>
         </div>
+        <div className='supermoon-heading' style={{paddingTop: '40px'}}>What are New Supermoons and Full Supermoons?
+</div>
+        <div>
+        Supermoons occur when the Moon reaches its closest point to Earth (perigee) coinciding with either a new moon or full moon phase. During a new supermoon, the Moon is positioned between the Earth and the Sun, making it invisible to the naked eye. However, its gravitational pull aligns with Earth and the Sun, amplifying tidal forces and creating stronger high tides (spring tides or king tides).
+In contrast, a full supermoon coincides with the Moon's full phase, making it appear larger and brighter than usual in the night sky due to its closer proximity to Earth.
+        </div>
+
+        <div className='supermoon-heading' style={{paddingTop: '40px'}}>Observing Supermoon</div>
+        <div>
+          Supermoons are a beautiful astronomical phenomenon to witness. You don't need any special equipment to enjoy them – simply head outside on a clear night during a supermoon and marvel at the Moon's brilliance!
+          <br/><br/>
+          Using the Timeline you can check when your next Supermoon will be.
+        </div>
 
 
-
-        <div className='timeline-container' style={{ backgroundColor: '#E22C6F', overflowY: 'auto', height: '900px', marginBottom: '100px' }}>
-          <h1 className='timeline-title'>Supermoon Timeline</h1>
+        <h1 className='timeline-title'>Supermoon Timeline</h1>
+        <div className='timeline-container' style={{ backgroundColor: '#023263', overflowY: 'auto', height: '900px', marginBottom: '100px' }}>
           <VerticalTimeline>
             {supermoonArray.map(element => {
               return (
