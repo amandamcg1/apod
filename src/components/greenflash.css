@@ -6,14 +6,14 @@
 @keyframes mymove {
   0% {height: 100vh}
   50% {height: 100vh}
-  100% {height: 90px}
+  100% {height: 120px}
 }
 
 .greenflash-header {
   top: 0;
   left: 0;
   width: 100%;
-  height: 90px;
+  height: 120px;
   border: 1px solid black;
   background-image: url('../images/background.png');
   background-size: cover;
@@ -28,56 +28,34 @@
   100% { opacity: 1; height: 100%; }
 }
 
-.greenflash-content {
+.greenflash-content, .greenflash-return {
   opacity: 1;
   animation: fadeOut 4s;
-  width: 70%;
   margin: auto;
 } 
 
-.greenflash-image {
-  width: 35%;
-  margin-top: -40px;
-}
-
-.what-content {
-  width: 50%;
-  margin-top: 70px;
-}
-
-.whatGreenflash {
-  display: flex;
-  flex-wrap: nowrap;
-  justify-content: space-between;
-}
-
-.what-heading {
-  padding-bottom: 20px;
-}
-.what-text {
-  font-size: 12pt;
-  text-align: justify;
-}
-
 .greenflashheading {
-  font-size: 16pt;
   font-weight: 800;
+  padding-bottom: 25px;
 }
 
 .explanation-heading {
   text-align: center;
-  margin-top: 80px;
-  padding-bottom: 40px;
 }
 
 .explaination-text {
   width: 100%;
   text-align: justify;
-  padding-bottom: 40px;
+}
+
+.greenflash-explanation {
+  margin-bottom: 60px;
 }
 
 .types-table {
   width: 100%;
+  padding-bottom: 30px;
+  padding-top: 30px;
 }
 
 .imagereference{
@@ -86,26 +64,7 @@
 }
 
 .greenflash-howcontainer {
-  padding-bottom: 100px;
-}
-
-.how-heading {
-  text-align: center;
-  margin-top: 50px;
-}
-
-.atmosphere {
-  display: flex;
-  justify-content: space-between;
-  padding-top: 30px;
-}
-
-.atmosphere-text {
-  width: 35%;
-}
-
-.atmosphere-img {
-  width: 50%;
+  padding-bottom: 60px;
 }
 
 .toggle-container {
@@ -143,4 +102,212 @@
 
 .emo{
   font-size: 20px;
+}
+.greenflash-otherplanets-heading {
+  text-align: center;
+}
+
+
+@media only screen and (max-width: 480px) {
+  .greenflashheading {
+    font-size: 15pt;
+  }
+  .greenflash-content {
+    width: 90%;
+    font-size: 11pt;
+  } 
+  .greenflash-what {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-bottom: 60px;
+    margin-top: 40px;
+  }
+  .greenflash-what-content {
+    margin-bottom: 60px;
+  }
+  .atmosphere {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 30px;
+  }
+  .atmosphere-text {
+    padding-bottom: 20px;
+  }
+  .greenflash-how-distant-sunsafety {
+    display: flex;
+    flex-direction: column;
+  }
+  .greenflash-how-sunsetsunrise {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+  .greenflash-how-sunsetsunrise-img {
+    width: 100%;
+  }
+  .greenflash-how-sunsetsunrise-text {
+    width: 100%;
+  }
+  .greenflash-otherplanets-content {
+    padding-bottom: 60px;
+  }
+  .greenflash-otherplanets-text {
+    text-align: justify;
+    padding-bottom: 20px;
+  }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  .greenflashheading {
+    font-size: 15pt;
+  }
+  .greenflash-content {
+    width: 75%;
+    font-size: 11pt;
+  } 
+  .greenflash-what {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-bottom: 60px;
+    margin-top: 40px;
+  }
+  .greenflash-what-content {
+    margin-bottom: 60px;
+  }
+  .atmosphere {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 30px;
+  }
+  .atmosphere-text {
+    padding-bottom: 20px;
+  }
+  .greenflash-how-distant-sunsafety {
+    display: flex;
+    flex-direction: column;
+  }
+  .greenflash-how-sunsetsunrise {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+  .greenflash-how-sunsetsunrise-img {
+    width: 100%;
+  }
+  .greenflash-how-sunsetsunrise-text {
+    width: 100%;
+  }
+  .greenflash-otherplanets-content {
+    padding-bottom: 60px;
+  }
+  .greenflash-otherplanets-text {
+    text-align: justify;
+    padding-bottom: 20px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .greenflashheading {
+    font-size: 15pt;
+  }
+  .greenflash-content {
+    width: 80%;
+    font-size: 11pt;
+  } 
+  .greenflash-what {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 80px;
+    margin-top: 20px;
+  }
+  .greenflash-image {
+    width: 35%
+  }
+  .greenflash-what-content {
+    width: 60%;
+  }
+  .atmosphere {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 30px;
+  }
+  .atmosphere-text {
+    width: 30%;
+  }
+  .atmosphere-img {
+    width: 60%;
+  }
+  .greenflash-how-distant-sunsafety, .greenflash-otherplanets-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .greenflash-how-sunsetsunrise {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+  .greenflash-how-sunsetsunrise-img {
+    width: 100%;
+  }
+  .greenflash-how-sunsetsunrise-text {
+    width: 100%;
+  }
+  .greenflash-otherplanets-content {
+    padding-bottom: 60px;
+  }
+  .greenflash-otherplanets-img {
+    width: 40%;
+  }
+  .greenflash-otherplanets-text {
+    width: 50%;
+    text-align: justify;
+  }
+}
+
+@media only screen and (min-width: 1025px) {
+  .greenflashheading {
+    font-size: 18pt;
+  }
+  .greenflash-content {
+    width: 75%;
+    font-size: 12pt;
+  } 
+  .greenflash-image {
+    width: 40%;
+    margin-top: -40px;
+  }
+  .greenflash-what-content {
+    width: 50%;
+  }
+  .greenflash-how-sunsetsunrise {
+    flex-direction: row;
+    padding-top: 40px;
+  }
+  .greenflash-how-sunsetsunrise-img {
+    width: 40%;
+  }
+  .greenflash-how-sunsetsunrise-text {
+    width: 50%;
+  }
+  .greenflash-otherplanets-img {
+    width: 40%;
+  }
+  .greenflash-otherplanets-text {
+    width: 50%;
+  }
+}
+
+@media only screen and (min-width: 1300px) {
+  .greenflashheading {
+    font-size: 22pt;
+  }
+  .greenflash-content {
+    width: 70%;
+    font-size: 14pt;
+  } 
+  .greenflash-image {
+    width: 45%;
+  }
 }

@@ -7,6 +7,8 @@ import { ReactComponent as MoonIcon} from '../images/moon.svg';
 import supermoon from '../images/supermoonimg.png';
 import perigeeapogee from '../images/perigeeapogee.png';
 import supermoonsizing from '../images/supermoon-sizing.png';
+import returnback from '../images/arrowback.png';
+import { Link } from 'react-router-dom';
 
 const Supermoon = () => {
   const buildCard = () => {
@@ -14,13 +16,61 @@ const Supermoon = () => {
     supermoons.forEach((item, idx) => {
       arry.push({
         id: idx,
-        date: item.Date,
-        time: item.Time,
-        distance: item.Distance,
+        date: item.date,
+        time: item.time,
+        distance: item.distance,
+        diameter: item.diameter,
+        relativeDistance: item.relativeDistance,
+        relativeBrightness: item.relativeBrightness,
+        eclipse: item.eclipse,
       })
     })
   
     return arry
+  }
+
+  const formatDate = (dateString) => {
+    const dateParts = dateString.split('/');
+    const day = dateParts[0];
+    const month = dateParts[1];
+    const year = dateParts[2];
+  
+    // Convert month from number to its name representation
+    const monthNames = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
+    const monthName = monthNames[parseInt(month, 10) - 1];
+  
+    // Add 'th' to day if needed
+    let dayWithSuffix;
+    switch (day) {
+      case '1':
+      case '21':
+      case '31':
+        dayWithSuffix = day + 'st';
+        break;
+      case '2':
+      case '22':
+        dayWithSuffix = day + 'nd';
+        break;
+      case '3':
+      case '23':
+        dayWithSuffix = day + 'rd';
+        break;
+      default:
+        dayWithSuffix = day + 'th';
+    }
+  
+    return `${dayWithSuffix} ${monthName} ${year}`;
+  };
+
+  const eclipseType = (eclipse) => {
+    let eclipseType = '';
+    if (eclipse === 'p')
+      eclipseType = 'Partial Eclipse'
+    else if (eclipse === 'n')
+      eclipseType = 'Penumbral Eclipse'
+    else
+      eclipseType = 'Total Eclipse'
+    return (<>{eclipseType} <br/></>)
   }
 
   const supermoonArray = buildCard()
@@ -29,39 +79,14 @@ const Supermoon = () => {
     background: '#274689',
   }
 
-  const [width, setWidth] = React.useState(window.innerWidth);
-
-  React.useEffect(() => {
-    const handleResize = () => {
-      setWidth(window.innerWidth);
-    };
-
-    window.addEventListener('resize', handleResize);
-
-    return () => {
-      window.removeEventListener('resize', handleResize);
-    };
-  }, []);
-
   return (
     <div className='supermoonpage'>
-      <div className='supermoon-header' style={{color: 'white'}}>{width}
-        {/* <div 
-          className='header-text' 
-          style={{
-            width: '75%',
-            height: '80%',
-            margin: 'auto',
-            position: 'relative',
-          }}>
-            <span style={{
-              position: 'absolute',
-              bottom: 0,
-              right: 0,
-              width: '50%',
-              fontSize: '5em'
-            }}> SUPERMOON</span>
-        </div> */}
+      <div className='supermoon-header'>
+        <div className='supermoon-return' style={{ height: '120px', paddingLeft: '10px'}}>
+          <Link to='/'>
+            <img src={returnback} alt='Return To Home' height='100%' />
+          </Link>
+        </div>
       </div>
       <div className='supermoon-content'>
         <div className='supermoon-intro'>
@@ -218,9 +243,30 @@ const Supermoon = () => {
                   iconStyle={iconStyle}
                   icon={<MoonIcon />}
                 >
-                  <h3 className='vertical-timeline-element-title'>Moon</h3>
-                  <h5 className='vertical-timeline-element-subtitle'>subtitle</h5>
-                  <p id='description'>{element.distance}</p>
+                  <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center'}}>
+                    <div><h3 className='vertical-timeline-element-title'>{formatDate(element.date)}</h3></div>
+                    <div>{element.time.split(':').slice(0, 2).join(':')} GMT</div>
+                  </div>
+                  
+                  <h5 className='vertical-timeline-element-subtitle'>Full ? New Supermoon</h5>
+                  <p id='description' style={{ display: 'flex', justifyContent: 'space-between'}}>
+                    <div>
+                      {element.eclipse ? eclipseType(element.eclipse) : null}
+                      Distance (km)<br/>
+                      Diameter (arc-min)<br/>
+                      Relative Distance <br/>
+                      {element.relativeBrightness ? 'Relative Brightness' : null}
+                    </div>
+                    <div>
+                      {element.eclipse ? <br/> : null}
+                      {element.distance}
+                      <br/>
+                      {element.diameter}<br/>
+                      {element.relativeDistance}<br/>
+                      {element.relativeBrightness ? element.relativeBrightness : null}
+                    </div>
+                    {/* {element.distance} */}
+                  </p>
                 </VerticalTimelineElement>
               )
             })}

@@ -1,58 +1,262 @@
 [
   {
-    "Date": "9/01/2001",
-    "Time": "20:24:00",
-    "Eclipse": "t",
-    "Distance": 357406,
-    "Diameter": 33.43,
-    "Relative": 0.994
+   "date": "9\/2\/2020",
+   "time": "07:33:00",
+   "distance": 362479,
+   "diameter": 32.97,
+   "relativeDistance": 0.955,
+   "relativeBrightness": "1.251\/1.125"
   },
   {
-    "Date": "8/02/2001",
-    "Time": "07:12:00",
-    "Eclipse": "",
-    "Distance": 356994,
-    "Diameter": 33.47,
-    "Relative": 0.997
+   "date": "9\/3\/2020",
+   "time": "17:48:00",
+   "distance": 357404,
+   "diameter": 33.43,
+   "relativeDistance": 0.994,
+   "relativeBrightness": "1.292\/1.157 "
   },
   {
-    "Date": "9/03/2001",
-    "Time": "17:23:00",
-    "Eclipse": "",
-    "Distance": 361389,
-    "Diameter": 33.07,
-    "Relative": 0.965
+   "date": "8\/4\/2020",
+   "time": "02:35:00",
+   "distance": 357035,
+   "diameter": 33.47,
+   "relativeDistance": 0.997,
+   "relativeBrightness": "1.296\/1.159"
   },
   {
-    "Date": "28/01/2002",
-    "Time": "22:50:00",
-    "Eclipse": "",
-    "Distance": 361766,
-    "Diameter": 33.03,
-    "Relative": 0.961
+   "date": "7\/5\/2020",
+   "time": "10:45:00",
+   "distance": 361184,
+   "diameter": 33.08,
+   "relativeDistance": 0.967,
+   "relativeBrightness": "1.261\/1.133"
   },
   {
-    "Date": "27/02/2002",
-    "Time": "09:17:00",
-    "Eclipse": "",
-    "Distance": 357091,
-    "Diameter": 33.46,
-    "Relative": 0.996
+   "date": "28\/3\/2021",
+   "time": "18:48:00",
+   "distance": 362170,
+   "diameter": 32.99,
+   "relativeDistance": 0.959,
+   "relativeBrightness": "1.252\/1.127"
   },
   {
-    "Date": "28/03/2002",
-    "Time": "18:25:00",
-    "Eclipse": "",
-    "Distance": 357212,
-    "Diameter": 33.45,
-    "Relative": 0.996
+   "date": "27\/4\/2021",
+   "time": "03:31:00",
+   "distance": 357615,
+   "diameter": 33.41,
+   "relativeDistance": 0.995,
+   "relativeBrightness": "1.290\/1.155"
   },
   {
-    "Date": "27/04/2002",
-    "Time": "03:00:00",
-    "Eclipse": "",
-    "Distance": 361870,
-    "Diameter": 33.02,
-    "Relative": 0.961
+   "date": "26\/5\/2021",
+   "time": "11:14:00",
+   "eclipse": "t",
+   "distance": 357462,
+   "diameter": 33.43,
+   "relativeDistance": 0.997,
+   "relativeBrightness": "1.291\/1.156"
+  },
+  {
+   "date": "24\/6\/2021",
+   "time": "18:40:00",
+   "distance": 361558,
+   "diameter": 33.05,
+   "relativeDistance": 0.965,
+   "relativeBrightness": "1.257\/1.130"
+  },
+  {
+   "date": "16\/5\/2022",
+   "time": "04:14:00",
+   "eclipse": "t",
+   "distance": 362127,
+   "diameter": 33,
+   "relativeDistance": 0.959,
+   "relativeBrightness": "1.252\/1.127"
+  },
+  {
+   "date": "14\/6\/2022",
+   "time": "11:52:00",
+   "distance": 357658,
+   "diameter": 33.41,
+   "relativeDistance": 0.995,
+   "relativeBrightness": "1.290\/1.155"
+  },
+  {
+   "date": "13\/7\/2022",
+   "time": "18:37:00",
+   "distance": 357418,
+   "diameter": 33.43,
+   "relativeDistance": 0.997,
+   "relativeBrightness": "1.292\/1.157"
+  },
+  {
+   "date": "12\/8\/2022",
+   "time": "01:36:00",
+   "distance": 361409,
+   "diameter": 33.06,
+   "relativeDistance": 0.965,
+   "relativeBrightness": "1.258\/1.131"
+  },
+  {
+   "date": "3\/7\/2023",
+   "time": "11:39:00",
+   "distance": 361934,
+   "diameter": 33.02,
+   "relativeDistance": 0.961,
+   "relativeBrightness": "1.254\/1.128"
+  },
+  {
+   "date": "1\/8\/2023",
+   "time": "18:32:00",
+   "distance": 357530,
+   "diameter": 33.42,
+   "relativeDistance": 0.996,
+   "relativeBrightness": "1.291\/1.156"
+  },
+  {
+   "date": "31\/8\/2023",
+   "time": "01:35:00",
+   "distance": 357344,
+   "diameter": 33.44,
+   "relativeDistance": 0.997,
+   "relativeBrightness": "1.293\/1.157"
+  },
+  {
+   "date": "29\/9\/2023",
+   "time": "09:58:00",
+   "distance": 361552,
+   "diameter": 33.05,
+   "relativeDistance": 0.964,
+   "relativeBrightness": "1.257\/1.130"
+  },
+  {
+   "date": "19\/8\/2024",
+   "time": "18:26:00",
+   "distance": 361970,
+   "diameter": 33.01,
+   "relativeDistance": 0.961,
+   "relativeBrightness": "1.254\/1.128"
+  },
+  {
+   "date": "18\/9\/2024",
+   "time": "02:34:00",
+   "eclipse": "p",
+   "distance": 357486,
+   "diameter": 33.43,
+   "relativeDistance": 0.996,
+   "relativeBrightness": "1.291\/1.156"
+  },
+  {
+   "date": "17\/10\/2024",
+   "time": "11:26:00",
+   "distance": 357364,
+   "diameter": 33.44,
+   "relativeDistance": 0.996,
+   "relativeBrightness": "1.292\/1.157"
+  },
+  {
+   "date": "15\/11\/2024",
+   "time": "21:29:00",
+   "distance": 361867,
+   "diameter": 33.02,
+   "relativeDistance": 0.961,
+   "relativeBrightness": "1.254\/1.128"
+  },
+  {
+   "date": "7\/10\/2025",
+   "time": "03:48:00",
+   "distance": 361458,
+   "diameter": 33.06,
+   "relativeDistance": 0.964,
+   "relativeBrightness": "1.259\/1.131"
+  },
+  {
+   "date": "5\/11\/2025",
+   "time": "13:19:00",
+   "distance": 356980,
+   "diameter": 33.47,
+   "relativeDistance": 0.997,
+   "relativeBrightness": "1.296\/1.160"
+  },
+  {
+   "date": "4\/12\/2025",
+   "time": "23:14:00",
+   "distance": 357219,
+   "diameter": 33.45,
+   "relativeDistance": 0.995,
+   "relativeBrightness": "1.294\/1.158"
+  },
+  {
+   "date": "3\/1\/2026",
+   "time": "10:03:00",
+   "distance": 362312,
+   "diameter": 32.98,
+   "relativeDistance": 0.956,
+   "relativeBrightness": "1.252\/1.126"
+  },
+  {
+   "date": "24\/11\/2026",
+   "time": "14:53:00",
+   "distance": 360768,
+   "diameter": 33.12,
+   "relativeDistance": 0.969,
+   "relativeBrightness": "1.264\/1.135"
+  },
+  {
+   "date": "24\/12\/2026",
+   "time": "01:28:00",
+   "distance": 356740,
+   "diameter": 33.5,
+   "relativeDistance": 0.998,
+   "relativeBrightness": "1.298\/1.161"
+  },
+  {
+   "date": "22\/1\/2027",
+   "time": "12:17:00",
+   "distance": "357644 m",
+   "diameter": 33.41,
+   "relativeDistance": 0.993,
+   "relativeBrightness": "1.290\/1.155"
+  },
+  {
+   "date": "20\/2\/2027",
+   "time": "23:24:00",
+   "eclipse": "n",
+   "distance": 363306,
+   "diameter": 32.89,
+   "relativeDistance": 0.948,
+   "relativeBrightness": "1.244\/1.119"
+  },
+  {
+   "date": "12\/1\/2028",
+   "time": "04:03:00",
+   "distance": 360266,
+   "diameter": 33.17,
+   "relativeDistance": 0.974,
+   "relativeBrightness": "1.268\/1.138"
+  },
+  {
+   "date": "10\/2\/2028",
+   "time": "15:04:00",
+   "distance": 356720,
+   "diameter": 33.5,
+   "relativeDistance": 0.999,
+   "relativeBrightness": "1.298\/1.161"
+  },
+  {
+   "date": "11\/3\/2028",
+   "time": "01:06:00",
+   "distance": 358074,
+   "diameter": 33.37,
+   "relativeDistance": 0.99,
+   "relativeBrightness": "1.286\/1.152"
+  },
+  {
+   "date": "9\/4\/2028",
+   "time": "10:27:00",
+   "distance": 363867,
+   "diameter": 32.84,
+   "relativeDistance": 0.943,
+   "relativeBrightness": "1.239\/1.116"
   }
  ]

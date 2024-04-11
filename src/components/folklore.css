@@ -1,0 +1,93 @@
+.folklore-page {
+  position: relative;
+  overflow: hidden;
+}
+
+@keyframes mymove {
+  0% {height: 100vh}
+  50% {height: 100vh}
+  100% {height: 120px}
+}
+
+.folklore-header {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 120px;
+  border: 1px solid black;
+  background-image: url('../images/background.png');
+  background-size: cover;
+  background-position: center center;
+  background-repeat:no-repeat;
+  animation: mymove 3s ease;
+}
+
+@keyframes fadeOut {
+  0% { opacity: 0; height: 0; }
+  70% { opacity: 0; height: 0; }
+  100% { opacity: 1; height: 100%; }
+}
+
+.folklore-content, .folklore-return {
+  opacity: 1;
+  animation: fadeOut 4s;
+  margin: auto;
+  text-align: justify;
+} 
+
+.folklore-intro-heading, .folklore-supermoons-heading, .folklore-greenflash-heading {
+  font-size: 14pt;
+  font-weight: 800;
+  padding-bottom: 40px;
+}
+
+.folklore-supermoons-heading, .folklore-greenflash-heading {
+  text-align: center;
+}
+.wolf {
+  text-align: center;
+  padding: 40px;
+}
+
+@media only screen and (max-width: 480px) {
+  .folklore-content {
+    width: 90%;
+  }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  .folklore-content {
+    width: 75%;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .folklore-content {
+    width: 80%;
+  }
+  .folklore-intro-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+  }
+  .folklore-intro {
+    width: 40%;
+  }
+  .folklore-intro-img {
+    width: 30%;
+  }
+}
+
+@media only screen and (min-width: 1025px) {
+  .folklore-content {
+    width: 75%;
+  }
+}
+
+@media only screen and (min-width: 1300px) {
+  .folklore-content {
+    width: 70%;
+  }
+  
+}
