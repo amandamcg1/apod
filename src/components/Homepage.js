@@ -40,7 +40,10 @@ function Homepage() {
           Green Flash and Supermoon
         </div>
         <div className='welcome'>
-          This website explores the Green Flash phenomenon, a rare optical illusion that can occur during a Super Moon. For a fleeting moment, a vibrant green flash appears at the moon's edge, leaving observers awestruck. Delve into the science behind this captivating event, explaining how the Earth's atmosphere bends light, creating the illusion. We'll also explore the factors that influence the Green Flash's rarity and how these conditions might align with a Super Moon. 
+          This website explores the Green Flash phenomenon and the Supermoon. Inspired by a captivating 
+          image on NASA's Astronomy Picture of the Day (APOD) capturing a supermoon alongside 
+          a green flash on May 10th, 2012, this website dives deep into the science and wonder behind 
+          these celestial phenomena.
         </div>
         <div className='reference'>
           Laurent Laveder. (2012). Green Flash and Super Moon. Available at: https://www.pixheaven.net/photo_us.php?nom=120506_3193
