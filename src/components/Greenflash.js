@@ -173,7 +173,20 @@ function Greenflash() {
             <div className='greenflash-otherplanets-img'><img src={jupiter} alt='Jupiter and Moons' width='100%' /></div>
           </div>
         </div>
+        <div className='endreferences' style={{ paddingBottom: '60px'}}>
+        <div className='supermoon-heading' style={{paddingTop: '40px'}}>References</div>
+        Borowski, S. (2012) Catching the elusive ‘green flash’, American Association for the Advancement of Science (AAAS). Available at: https://www.aaas.org/catching-elusive-green-flash (Accessed: 11 April 2024). 
+        <br/><br/>
+        Editors of EarthSky (2023) What’s a green flash and how can I see one?, EarthSky. Available at: https://earthsky.org/earth/can-i-see-a-green-flash/ (Accessed: 11 April 2024).
+        <br/><br/>
+        Green, T. (2023) Eerie green flash: Unusual lightning observed on Jupiter, Weather & Radar. Available at: https://www.weatherandradar.co.uk/weather-news/eerie-green-flash-unusual-lightning-observed-on-jupiter--1a39f554-b823-4b44-bc87-71f3ced33d9d (Accessed: 11 April 2024). 
+        <br/><br/>
+        Helmenstine, A. (2023) The green flash and how to see it, Science Notes and Projects. Available at: https://sciencenotes.org/the-green-flash-and-how-to-see-it/ (Accessed: 11 April 2024). 
+        <br/><br/>
+        Lawrence, P. (2020) The green flash of venus: What it is and how to see it, BBC Sky at Night Magazine. Available at: https://www.skyatnightmagazine.com/advice/skills/green-flash-venus-what-is-how-see (Accessed: 11 April 2024). 
+        </div>
 
+              
       </div>
     </div>
   )

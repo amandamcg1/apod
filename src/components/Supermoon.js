@@ -284,6 +284,14 @@ In contrast, a full supermoon coincides with the Moon's full phase, making it ap
             })}
           </VerticalTimeline>
         </div>
+        <div className='endreferences' style={{ paddingBottom: '60px'}}>
+        <div className='supermoon-heading' style={{paddingTop: '40px'}}>References</div>
+        Curran, M. (2024) 1st of 5 new supermoons in a row starting today, EarthSky. Available at: https://earthsky.org/astronomy-essentials/new-supermoons-in-a-row/ (Accessed: 11 April 2024). 
+        <br/><br/>
+        Espenak, F. (2022) New Moon at Perigee (New Supermoon): 2001 to 2100, New Moon at perigee (new Supermoon): 2001 to 2100. Available at: http://astropixels.com/ephemeris/moon/newperigee2001.html?fbclid=IwAR2W_6fmFyOipzc49P5_ESB25Bx0JNDJ82fCjTPxJdrDYLWrL3hJrok-tMM (Accessed: 11 April 2024). 
+        <br/><br/>
+        Osterloff, E. and Hendry, L. (2024) What is a supermoon?, Natural History Museum. Available at: https://www.nhm.ac.uk/discover/what-is-a-supermoon.html#:~:text=When%20a%20full%20Moon%20occurs,an%20easy%20explanation%20for%20it (Accessed: 11 April 2024). 
+        </div>
       </div>
     </div>
   );
